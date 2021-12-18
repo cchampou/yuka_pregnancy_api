@@ -14,5 +14,9 @@ jobs:
     steps:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.0"
+      - name: Intall composer
+        uses: "ramsey/composer-install@v1"
       - name: Run tests
         run: php artisan test
