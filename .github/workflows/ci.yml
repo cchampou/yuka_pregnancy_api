@@ -14,3 +14,5 @@ jobs:
     steps:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
+      - name: Run tests
+        run: php artisan test
