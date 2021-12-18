@@ -1,5 +1,9 @@
 {
     "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cchampou/yuka_pregnancy_api.git"
+    },
     "scripts": {
         "dev": "npm run development",
         "development": "mix",
