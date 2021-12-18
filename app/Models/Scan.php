@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Scan extends Model
 {
     use HasFactory;
+
+    /**
+     * @var string
+     */
+    private $ean;
 }
