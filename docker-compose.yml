@@ -2,6 +2,7 @@ version: '3.9'
 
 services:
     webserver:
+        restart: always
         build:
             context: .
             dockerfile: Dockerfile
